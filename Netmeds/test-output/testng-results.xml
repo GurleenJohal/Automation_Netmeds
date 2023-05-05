@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="37" passed="35" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-04T17:25:12 IST" name="Suite" finished-at="2023-05-04T17:27:35 IST" duration-ms="142817">
+    <groups>
+    </groups>
+    <test started-at="2023-05-04T17:25:12 IST" name="Test" finished-at="2023-05-04T17:27:35 IST" duration-ms="142817">
+      <class name="Netmeds_Test.Netmeds_Test_1">
+        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:Netmeds_Test.Netmeds_Test_1@5149d738]" started-at="2023-05-04T17:25:12 IST" name="launchWebsite" finished-at="2023-05-04T17:25:23 IST" duration-ms="10415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebsite -->
+        <test-method signature="Logo_Visibility()[pri:1, instance:Netmeds_Test.Netmeds_Test_1@5149d738]" started-at="2023-05-04T17:25:23 IST" name="Logo_Visibility" finished-at="2023-05-04T17:25:25 IST" duration-ms="2054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logo_Visibility -->
+        <test-method signature="Search()[pri:3, instance:Netmeds_Test.Netmeds_Test_1@5149d738]" started-at="2023-05-04T17:25:25 IST" name="Search" finished-at="2023-05-04T17:25:34 IST" duration-ms="8881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method signature="Medicine()[pri:4, instance:Netmeds_Test.Netmeds_Test_1@5149d738]" started-at="2023-05-04T17:25:34 IST" name="Medicine" finished-at="2023-05-04T17:25:44 IST" duration-ms="10022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Medicine -->
+        <test-method signature="Wellness_Ayush()[pri:6, instance:Netmeds_Test.Netmeds_Test_1@5149d738]" started-at="2023-05-04T17:25:44 IST" name="Wellness_Ayush" finished-at="2023-05-04T17:25:52 IST" duration-ms="8389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wellness_Ayush -->
+        <test-method signature="Wellness_CovidEssentials()[pri:7, instance:Netmeds_Test.Netmeds_Test_1@5149d738]" started-at="2023-05-04T17:25:52 IST" name="Wellness_CovidEssentials" finished-at="2023-05-04T17:25:53 IST" duration-ms="1319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wellness_CovidEssentials -->
+        <test-method signature="Wellness_Devices()[pri:8, instance:Netmeds_Test.Netmeds_Test_1@5149d738]" started-at="2023-05-04T17:25:53 IST" name="Wellness_Devices" finished-at="2023-05-04T17:25:57 IST" duration-ms="3513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wellness_Devices -->
+        <test-method signature="Wellness_Diabetes_Support()[pri:9, instance:Netmeds_Test.Netmeds_Test_1@5149d738]" started-at="2023-05-04T17:25:57 IST" name="Wellness_Diabetes_Support" finished-at="2023-05-04T17:26:01 IST" duration-ms="4154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wellness_Diabetes_Support -->
+        <test-method signature="Wellness_Eyewear()[pri:10, instance:Netmeds_Test.Netmeds_Test_1@5149d738]" started-at="2023-05-04T17:26:01 IST" name="Wellness_Eyewear" finished-at="2023-05-04T17:26:04 IST" duration-ms="3341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wellness_Eyewear -->
+        <test-method signature="Wellness_Fitness()[pri:11, instance:Netmeds_Test.Netmeds_Test_1@5149d738]" started-at="2023-05-04T17:26:04 IST" name="Wellness_Fitness" finished-at="2023-05-04T17:26:10 IST" duration-ms="5370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wellness_Fitness -->
+        <test-method signature="Wellness_Health_Conditions()[pri:12, instance:Netmeds_Test.Netmeds_Test_1@5149d738]" started-at="2023-05-04T17:26:10 IST" name="Wellness_Health_Conditions" finished-at="2023-05-04T17:26:15 IST" duration-ms="5404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wellness_Health_Conditions -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:Netmeds_Test.Netmeds_Test_1@5149d738]" started-at="2023-05-04T17:26:15 IST" name="terminate" finished-at="2023-05-04T17:26:15 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- Netmeds_Test.Netmeds_Test_1 -->
+      <class name="Netmeds_Test.Netmeds_Test_2">
+        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:Netmeds_Test.Netmeds_Test_2@742ff096]" started-at="2023-05-04T17:26:15 IST" name="launchWebsite" finished-at="2023-05-04T17:26:19 IST" duration-ms="3945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebsite -->
+        <test-method signature="Lab_Tests()[pri:1, instance:Netmeds_Test.Netmeds_Test_2@742ff096]" started-at="2023-05-04T17:26:19 IST" name="Lab_Tests" finished-at="2023-05-04T17:26:23 IST" duration-ms="3271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lab_Tests -->
+        <test-method signature="Health_packages()[pri:2, instance:Netmeds_Test.Netmeds_Test_2@742ff096]" started-at="2023-05-04T17:26:23 IST" name="Health_packages" finished-at="2023-05-04T17:26:27 IST" depends-on-methods="Netmeds_Test.Netmeds_Test_2.Lab_Tests" duration-ms="4556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Health_packages -->
+        <test-method signature="Beauty_Fragrances()[pri:3, instance:Netmeds_Test.Netmeds_Test_2@742ff096]" started-at="2023-05-04T17:26:27 IST" name="Beauty_Fragrances" finished-at="2023-05-04T17:26:32 IST" duration-ms="5421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beauty_Fragrances -->
+        <test-method signature="Beauty_Hair()[pri:4, instance:Netmeds_Test.Netmeds_Test_2@742ff096]" started-at="2023-05-04T17:26:32 IST" name="Beauty_Hair" finished-at="2023-05-04T17:26:38 IST" duration-ms="5242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beauty_Hair -->
+        <test-method signature="Beauty_Makeup()[pri:5, instance:Netmeds_Test.Netmeds_Test_2@742ff096]" started-at="2023-05-04T17:26:38 IST" name="Beauty_Makeup" finished-at="2023-05-04T17:26:43 IST" duration-ms="5278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beauty_Makeup -->
+        <test-method signature="Beauty_MomBaby()[pri:6, instance:Netmeds_Test.Netmeds_Test_2@742ff096]" started-at="2023-05-04T17:26:43 IST" name="Beauty_MomBaby" finished-at="2023-05-04T17:26:48 IST" duration-ms="5400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beauty_MomBaby -->
+        <test-method signature="Beauty_PersonalCare()[pri:7, instance:Netmeds_Test.Netmeds_Test_2@742ff096]" started-at="2023-05-04T17:26:48 IST" name="Beauty_PersonalCare" finished-at="2023-05-04T17:26:54 IST" duration-ms="5497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beauty_PersonalCare -->
+        <test-method signature="Beauty_SkinCare()[pri:8, instance:Netmeds_Test.Netmeds_Test_2@742ff096]" started-at="2023-05-04T17:26:54 IST" name="Beauty_SkinCare" finished-at="2023-05-04T17:26:59 IST" duration-ms="5335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beauty_SkinCare -->
+        <test-method signature="Beauty_Tools()[pri:9, instance:Netmeds_Test.Netmeds_Test_2@742ff096]" started-at="2023-05-04T17:26:59 IST" name="Beauty_Tools" finished-at="2023-05-04T17:27:05 IST" duration-ms="5279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beauty_Tools -->
+        <test-method signature="Health_Corner_HealthLibrary()[pri:10, instance:Netmeds_Test.Netmeds_Test_2@742ff096]" started-at="2023-05-04T17:27:05 IST" name="Health_Corner_HealthLibrary" finished-at="2023-05-04T17:27:09 IST" duration-ms="4087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Health_Corner_HealthLibrary -->
+        <test-method signature="Health_Library()[pri:11, instance:Netmeds_Test.Netmeds_Test_2@742ff096]" started-at="2023-05-04T17:27:09 IST" name="Health_Library" finished-at="2023-05-04T17:27:09 IST" depends-on-methods="Netmeds_Test.Netmeds_Test_2.Health_Corner_HealthLibrary" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Health_Library -->
+        <test-method signature="Patients_alike()[pri:12, instance:Netmeds_Test.Netmeds_Test_2@742ff096]" started-at="2023-05-04T17:27:09 IST" name="Patients_alike" finished-at="2023-05-04T17:27:11 IST" duration-ms="2593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Patients_alike -->
+        <test-method signature="CoronaAwarenes()[pri:13, instance:Netmeds_Test.Netmeds_Test_2@742ff096]" started-at="2023-05-04T17:27:11 IST" name="CoronaAwarenes" finished-at="2023-05-04T17:27:13 IST" depends-on-methods="Netmeds_Test.Netmeds_Test_2.Patients_alike" duration-ms="1404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CoronaAwarenes -->
+        <test-method signature="Offers()[pri:14, instance:Netmeds_Test.Netmeds_Test_2@742ff096]" started-at="2023-05-04T17:27:13 IST" name="Offers" finished-at="2023-05-04T17:27:13 IST" duration-ms="695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Offers -->
+        <test-method signature="Select_Offer()[pri:15, instance:Netmeds_Test.Netmeds_Test_2@742ff096]" started-at="2023-05-04T17:27:13 IST" name="Select_Offer" finished-at="2023-05-04T17:27:17 IST" depends-on-methods="Netmeds_Test.Netmeds_Test_2.Offers" duration-ms="3251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_Offer -->
+        <test-method signature="View_Offer()[pri:16, instance:Netmeds_Test.Netmeds_Test_2@742ff096]" started-at="2023-05-04T17:27:17 IST" name="View_Offer" finished-at="2023-05-04T17:27:17 IST" depends-on-methods="Netmeds_Test.Netmeds_Test_2.Select_Offer" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- View_Offer -->
+        <test-method signature="Count_Offers()[pri:17, instance:Netmeds_Test.Netmeds_Test_2@742ff096]" started-at="2023-05-04T17:27:17 IST" name="Count_Offers" finished-at="2023-05-04T17:27:20 IST" depends-on-methods="Netmeds_Test.Netmeds_Test_2.View_Offer" duration-ms="3380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Count_Offers -->
+        <test-method signature="Add_to_Cart()[pri:18, instance:Netmeds_Test.Netmeds_Test_2@742ff096]" started-at="2023-05-04T17:27:20 IST" name="Add_to_Cart" finished-at="2023-05-04T17:27:23 IST" duration-ms="3171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_to_Cart -->
+        <test-method signature="Count_Items()[pri:19, instance:Netmeds_Test.Netmeds_Test_2@742ff096]" started-at="2023-05-04T17:27:23 IST" name="Count_Items" finished-at="2023-05-04T17:27:25 IST" depends-on-methods="Netmeds_Test.Netmeds_Test_2.Add_to_Cart" duration-ms="2035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Count_Items -->
+        <test-method signature="Item_Info()[pri:20, instance:Netmeds_Test.Netmeds_Test_2@742ff096]" started-at="2023-05-04T17:27:25 IST" name="Item_Info" finished-at="2023-05-04T17:27:27 IST" depends-on-methods="Netmeds_Test.Netmeds_Test_2.Count_Items" duration-ms="2049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Item_Info -->
+        <test-method signature="Add_Item()[pri:21, instance:Netmeds_Test.Netmeds_Test_2@742ff096]" started-at="2023-05-04T17:27:27 IST" name="Add_Item" finished-at="2023-05-04T17:27:30 IST" depends-on-methods="Netmeds_Test.Netmeds_Test_2.Item_Info" duration-ms="2906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Item -->
+        <test-method signature="Order_Count()[pri:22, instance:Netmeds_Test.Netmeds_Test_2@742ff096]" started-at="2023-05-04T17:27:30 IST" name="Order_Count" finished-at="2023-05-04T17:27:31 IST" depends-on-methods="Netmeds_Test.Netmeds_Test_2.Add_Item" duration-ms="686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Order_Count -->
+        <test-method signature="Order_Summary()[pri:23, instance:Netmeds_Test.Netmeds_Test_2@742ff096]" started-at="2023-05-04T17:27:31 IST" name="Order_Summary" finished-at="2023-05-04T17:27:31 IST" depends-on-methods="Netmeds_Test.Netmeds_Test_2.Order_Count" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Order_Summary -->
+        <test-method signature="Cart()[pri:24, instance:Netmeds_Test.Netmeds_Test_2@742ff096]" started-at="2023-05-04T17:27:31 IST" name="Cart" finished-at="2023-05-04T17:27:35 IST" duration-ms="3520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cart -->
+        <test-method signature="Cart_Product()[pri:25, instance:Netmeds_Test.Netmeds_Test_2@742ff096]" started-at="2023-05-04T17:27:35 IST" name="Cart_Product" finished-at="2023-05-04T17:27:35 IST" depends-on-methods="Netmeds_Test.Netmeds_Test_2.Cart" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cart_Product -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:Netmeds_Test.Netmeds_Test_2@742ff096]" started-at="2023-05-04T17:27:35 IST" name="terminate" finished-at="2023-05-04T17:27:35 IST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- Netmeds_Test.Netmeds_Test_2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

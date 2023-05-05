@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Netmeds_Test.Netmeds_Test_2">
+        <methods>
+          <include name="Beauty_Makeup"/>
+          <include name="Select_Offer"/>
+          <include name="Beauty_Fragrances"/>
+          <include name="terminate"/>
+          <include name="Patients_alike"/>
+          <include name="Lab_Tests"/>
+          <include name="Cart"/>
+          <include name="CoronaAwarenes"/>
+          <include name="Order_Summary"/>
+          <include name="Beauty_MomBaby"/>
+          <include name="Offers"/>
+          <include name="Beauty_PersonalCare"/>
+          <include name="Add_to_Cart"/>
+          <include name="Cart_Product"/>
+          <include name="Item_Info"/>
+          <include name="launchWebsite"/>
+          <include name="Health_Corner_HealthLibrary"/>
+          <include name="Health_Library"/>
+          <include name="Health_packages"/>
+          <include name="View_Offer"/>
+          <include name="Order_Count"/>
+          <include name="Count_Offers"/>
+          <include name="Beauty_Hair"/>
+          <include name="Add_Item"/>
+          <include name="Beauty_Tools"/>
+          <include name="Beauty_SkinCare"/>
+          <include name="Count_Items"/>
+        </methods>
+      </class> <!-- Netmeds_Test.Netmeds_Test_2 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
