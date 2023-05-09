@@ -1,0 +1,380 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>60/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 08 15:17:07 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>272 seconds (272156 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_1.Wellness_Eyewear()'><b>Wellness_Eyewear</b><br>Test class: Netmeds_Test.Netmeds_Test_1</td>
+<td></td>
+<td>5</td>
+<td>Netmeds_Test.Netmeds_Test_1@d737b89</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Health_Corner_HealthLibrary()'><b>Health_Corner_HealthLibrary</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>5</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_1.Stores_Map()'><b>Stores_Map</b><br>Test class: Netmeds_Test.Netmeds_Test_1</td>
+<td></td>
+<td>2</td>
+<td>Netmeds_Test.Netmeds_Test_1@d737b89</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Cart()'><b>Cart</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>5</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Count_Items()'><b>Count_Items</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>2</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Payment_Details()'><b>Payment_Details</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>0</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_1.Medicine()'><b>Medicine</b><br>Test class: Netmeds_Test.Netmeds_Test_1</td>
+<td></td>
+<td>14</td>
+<td>Netmeds_Test.Netmeds_Test_1@d737b89</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_1.Wellness_CovidEssentials()'><b>Wellness_CovidEssentials</b><br>Test class: Netmeds_Test.Netmeds_Test_1</td>
+<td></td>
+<td>3</td>
+<td>Netmeds_Test.Netmeds_Test_1@d737b89</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_1.Homeopathy()'><b>Homeopathy</b><br>Test class: Netmeds_Test.Netmeds_Test_1</td>
+<td></td>
+<td>6</td>
+<td>Netmeds_Test.Netmeds_Test_1@d737b89</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Apply_PromoCode()'><b>Apply_PromoCode</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>0</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_1.Wellness_Diabetes_Support()'><b>Wellness_Diabetes_Support</b><br>Test class: Netmeds_Test.Netmeds_Test_1</td>
+<td></td>
+<td>7</td>
+<td>Netmeds_Test.Netmeds_Test_1@d737b89</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_1.Location_Info()'><b>Location_Info</b><br>Test class: Netmeds_Test.Netmeds_Test_1</td>
+<td></td>
+<td>0</td>
+<td>Netmeds_Test.Netmeds_Test_1@d737b89</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Delivery_Status()'><b>Delivery_Status</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>2</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Remove_Product()'><b>Remove_Product</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>3</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_1.Bottom_Footer()'><b>Bottom_Footer</b><br>Test class: Netmeds_Test.Netmeds_Test_1</td>
+<td></td>
+<td>0</td>
+<td>Netmeds_Test.Netmeds_Test_1@d737b89</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_1.Search()'><b>Search</b><br>Test class: Netmeds_Test.Netmeds_Test_1</td>
+<td></td>
+<td>9</td>
+<td>Netmeds_Test.Netmeds_Test_1@d737b89</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_1.Change_Pincode()'><b>Change_Pincode</b><br>Test class: Netmeds_Test.Netmeds_Test_1</td>
+<td></td>
+<td>2</td>
+<td>Netmeds_Test.Netmeds_Test_1@d737b89</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_1.Wellness_Health_Conditions()'><b>Wellness_Health_Conditions</b><br>Test class: Netmeds_Test.Netmeds_Test_1</td>
+<td></td>
+<td>7</td>
+<td>Netmeds_Test.Netmeds_Test_1@d737b89</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_1.Wellness_Fitness()'><b>Wellness_Fitness</b><br>Test class: Netmeds_Test.Netmeds_Test_1</td>
+<td></td>
+<td>9</td>
+<td>Netmeds_Test.Netmeds_Test_1@d737b89</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_1.Diabetes()'><b>Diabetes</b><br>Test class: Netmeds_Test.Netmeds_Test_1</td>
+<td></td>
+<td>6</td>
+<td>Netmeds_Test.Netmeds_Test_1@d737b89</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Health_Library()'><b>Health_Library</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>0</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Order_Count()'><b>Order_Count</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>0</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_1.Navigation_Section()'><b>Navigation_Section</b><br>Test class: Netmeds_Test.Netmeds_Test_1</td>
+<td></td>
+<td>0</td>
+<td>Netmeds_Test.Netmeds_Test_1@d737b89</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Beauty_Hair()'><b>Beauty_Hair</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>6</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_1.Wellness_Devices()'><b>Wellness_Devices</b><br>Test class: Netmeds_Test.Netmeds_Test_1</td>
+<td></td>
+<td>6</td>
+<td>Netmeds_Test.Netmeds_Test_1@d737b89</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_1.COVID_Essentials()'><b>COVID_Essentials</b><br>Test class: Netmeds_Test.Netmeds_Test_1</td>
+<td></td>
+<td>6</td>
+<td>Netmeds_Test.Netmeds_Test_1@d737b89</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_1.Stores_Count()'><b>Stores_Count</b><br>Test class: Netmeds_Test.Netmeds_Test_1</td>
+<td></td>
+<td>0</td>
+<td>Netmeds_Test.Netmeds_Test_1@d737b89</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Beauty_SkinCare()'><b>Beauty_SkinCare</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>5</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Sel_Coupon()'><b>Sel_Coupon</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>0</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Item_Info()'><b>Item_Info</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>2</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Offers()'><b>Offers</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>0</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Select_Offer()'><b>Select_Offer</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>3</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Beauty_Makeup()'><b>Beauty_Makeup</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>6</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_1.Payment_Partner_Offers()'><b>Payment_Partner_Offers</b><br>Test class: Netmeds_Test.Netmeds_Test_1</td>
+<td></td>
+<td>2</td>
+<td>Netmeds_Test.Netmeds_Test_1@d737b89</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_1.Buy_Again()'><b>Buy_Again</b><br>Test class: Netmeds_Test.Netmeds_Test_1</td>
+<td></td>
+<td>11</td>
+<td>Netmeds_Test.Netmeds_Test_1@d737b89</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Patients_alike()'><b>Patients_alike</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>2</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.CoronaAwarenes()'><b>CoronaAwarenes</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>2</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_1.Wellness_Ayush()'><b>Wellness_Ayush</b><br>Test class: Netmeds_Test.Netmeds_Test_1</td>
+<td></td>
+<td>11</td>
+<td>Netmeds_Test.Netmeds_Test_1@d737b89</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Lab_Tests()'><b>Lab_Tests</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>3</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Add_to_Cart()'><b>Add_to_Cart</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>3</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.View_Offer()'><b>View_Offer</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>0</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Order_Summary()'><b>Order_Summary</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>0</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Proceed()'><b>Proceed</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>0</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Cart_Product()'><b>Cart_Product</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>0</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Beauty_PersonalCare()'><b>Beauty_PersonalCare</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>7</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_1.Netmeds_Stores()'><b>Netmeds_Stores</b><br>Test class: Netmeds_Test.Netmeds_Test_1</td>
+<td></td>
+<td>5</td>
+<td>Netmeds_Test.Netmeds_Test_1@d737b89</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_1.Next_Slider_Ad()'><b>Next_Slider_Ad</b><br>Test class: Netmeds_Test.Netmeds_Test_1</td>
+<td></td>
+<td>0</td>
+<td>Netmeds_Test.Netmeds_Test_1@d737b89</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Beauty_Fragrances()'><b>Beauty_Fragrances</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>6</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_1.Logo_Visibility()'><b>Logo_Visibility</b><br>Test class: Netmeds_Test.Netmeds_Test_1</td>
+<td></td>
+<td>2</td>
+<td>Netmeds_Test.Netmeds_Test_1@d737b89</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_1.Devices()'><b>Devices</b><br>Test class: Netmeds_Test.Netmeds_Test_1</td>
+<td></td>
+<td>5</td>
+<td>Netmeds_Test.Netmeds_Test_1@d737b89</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_1.Previous_Slider_Ad()'><b>Previous_Slider_Ad</b><br>Test class: Netmeds_Test.Netmeds_Test_1</td>
+<td></td>
+<td>2</td>
+<td>Netmeds_Test.Netmeds_Test_1@d737b89</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Health_packages()'><b>Health_packages</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>4</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_1.Stores_List()'><b>Stores_List</b><br>Test class: Netmeds_Test.Netmeds_Test_1</td>
+<td></td>
+<td>0</td>
+<td>Netmeds_Test.Netmeds_Test_1@d737b89</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Add_Item()'><b>Add_Item</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>2</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Beauty_MomBaby()'><b>Beauty_MomBaby</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>6</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_1.Sign_In()'><b>Sign_In</b><br>Test class: Netmeds_Test.Netmeds_Test_1</td>
+<td></td>
+<td>35</td>
+<td>Netmeds_Test.Netmeds_Test_1@d737b89</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Count_Offers()'><b>Count_Offers</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>2</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Coupon_List()'><b>Coupon_List</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>0</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_2.Beauty_Tools()'><b>Beauty_Tools</b><br>Test class: Netmeds_Test.Netmeds_Test_2</td>
+<td></td>
+<td>6</td>
+<td>Netmeds_Test.Netmeds_Test_2@72035809</td></tr>
+<tr>
+<td title='Netmeds_Test.Netmeds_Test_1.Veterinary()'><b>Veterinary</b><br>Test class: Netmeds_Test.Netmeds_Test_1</td>
+<td></td>
+<td>6</td>
+<td>Netmeds_Test.Netmeds_Test_1@d737b89</td></tr>
+</table><p>
+</body>
+</html>

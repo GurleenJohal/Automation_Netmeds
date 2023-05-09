@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Netmeds_Test.Netmeds_Test_1">
+        <methods>
+          <include name="Navigation_Section"/>
+          <include name="Wellness_CovidEssentials"/>
+          <include name="Devices"/>
+          <include name="Payment_Partner_Offers"/>
+          <include name="Stores_Count"/>
+          <include name="Wellness_Fitness"/>
+          <include name="Location_Info"/>
+          <include name="Wellness_Devices"/>
+          <include name="Bottom_Footer"/>
+          <include name="Search"/>
+          <include name="Stores_List"/>
+          <include name="Stores_Map"/>
+          <include name="Logo_Visibility"/>
+          <include name="Homeopathy"/>
+          <include name="launchWebsite"/>
+          <include name="Wellness_Diabetes_Support"/>
+          <include name="COVID_Essentials"/>
+          <include name="Change_Pincode"/>
+          <include name="Netmeds_Stores"/>
+          <include name="Next_Slider_Ad"/>
+          <include name="Diabetes"/>
+          <include name="terminate"/>
+          <include name="Veterinary"/>
+          <include name="Previous_Slider_Ad"/>
+          <include name="Wellness_Ayush"/>
+          <include name="Wellness_Eyewear"/>
+          <include name="Medicine"/>
+          <include name="Wellness_Health_Conditions"/>
+        </methods>
+      </class> <!-- Netmeds_Test.Netmeds_Test_1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
