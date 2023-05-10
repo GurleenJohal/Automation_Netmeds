@@ -3,16 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Netmeds_Test.Netmeds_Test_1">
+      <class name="Netmeds_Test.Netmeds_Test_2">
         <methods>
-          <include name="Search"/>
-          <include name="launchWebsite"/>
+          <include name="Beauty_Tools"/>
           <include name="terminate"/>
-          <include name="Medicine"/>
-          <include name="Sign_In"/>
-          <include name="Buy_Again"/>
+          <include name="launchWebsite"/>
         </methods>
-      </class> <!-- Netmeds_Test.Netmeds_Test_1 -->
+      </class> <!-- Netmeds_Test.Netmeds_Test_2 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

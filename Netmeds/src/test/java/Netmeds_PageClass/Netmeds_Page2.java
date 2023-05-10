@@ -84,8 +84,53 @@ public class Netmeds_Page2 extends Netmeds_Testbase{
 	//CART PRODUCT
 	@FindBy(xpath="//div[@class='cart-product']")
 	WebElement Cart_Product;
+	//APPLY PROMO CODE
+	@FindBy(xpath="(//span[text()='Apply Promo Code'])[2]")
+	WebElement Apply_Promo_Code;
+	//COUPON LIST
+	@FindBy(xpath="(//ul[@class='coupon-list-popup'])[1]")
+	WebElement Coupon_List;
+	//FIRST COUPON
+	@FindBy(xpath="(//li[@id='coupon_popup_1'])[1]")
+	WebElement Coupon_1;
+	//PAYMENT DETAILS
+	@FindBy(xpath="//div[@class='totalamt-col']")
+	WebElement Payment_details;
+	//PROCEED BUTTON
+	@FindBy(xpath="//button[text()='Proceed']")
+	WebElement Proceed_Button;
+	//DELIVERY STATUS
+	@FindBy(xpath="(//div[@class='deliverystatus'])[1]")
+	WebElement Delivery_Status;
+	//REMOVE PRODUCT
+	@FindBy(xpath="(//a[text()='Remove'])[2]")
+	WebElement Remove_Product2;
+	//REMOVE BUTTON
+	@FindBy(xpath="//button[text()='REMOVE']")
+	WebElement Remove_Button;
 	
 	//Methods
+	public WebElement Remove_Button() {
+		return Remove_Button;
+	}
+	public WebElement Remove_Product2() {
+		return Remove_Product2;
+	}
+	public WebElement Delivery_Status() {
+		return Delivery_Status;
+	}
+	public WebElement Proceed_Button() {
+		return Proceed_Button;
+	}
+	public WebElement Payment_details() {
+		return Payment_details;
+	}
+	public WebElement Coupon_1() {
+		return Coupon_1;
+	}
+	public WebElement Coupon_List() {
+		return Coupon_List;
+	}
 	public WebElement Lab_Tests() {
 		return Lab_tests;
 	}
@@ -157,5 +202,8 @@ public class Netmeds_Page2 extends Netmeds_Testbase{
 	}
 	public WebElement Cart_Product() {
 		return Cart_Product;
+	}
+	public WebElement Apply_Promo_Code() {
+		return Apply_Promo_Code;
 	}
 }

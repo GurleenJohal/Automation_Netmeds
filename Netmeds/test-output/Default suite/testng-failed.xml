@@ -3,37 +3,24 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Netmeds_Test.Netmeds_Test_2">
+      <class name="Netmeds_Test.Netmeds_Test_1">
         <methods>
-          <include name="Beauty_Makeup"/>
-          <include name="Select_Offer"/>
-          <include name="Beauty_Fragrances"/>
-          <include name="terminate"/>
-          <include name="Patients_alike"/>
-          <include name="Lab_Tests"/>
-          <include name="Cart"/>
-          <include name="CoronaAwarenes"/>
-          <include name="Order_Summary"/>
-          <include name="Beauty_MomBaby"/>
-          <include name="Offers"/>
-          <include name="Beauty_PersonalCare"/>
-          <include name="Add_to_Cart"/>
-          <include name="Cart_Product"/>
-          <include name="Item_Info"/>
           <include name="launchWebsite"/>
-          <include name="Health_Corner_HealthLibrary"/>
-          <include name="Health_Library"/>
-          <include name="Health_packages"/>
-          <include name="View_Offer"/>
-          <include name="Order_Count"/>
-          <include name="Count_Offers"/>
-          <include name="Beauty_Hair"/>
-          <include name="Add_Item"/>
-          <include name="Beauty_Tools"/>
-          <include name="Beauty_SkinCare"/>
-          <include name="Count_Items"/>
+          <include name="Wellness_CovidEssentials"/>
+          <include name="Payment_Partner_Offers"/>
+          <include name="Stores_Count"/>
+          <include name="Change_Pincode"/>
+          <include name="Location_Info"/>
+          <include name="Wellness_Devices"/>
+          <include name="Netmeds_Stores"/>
+          <include name="Next_Slider_Ad"/>
+          <include name="Bottom_Footer"/>
+          <include name="Stores_List"/>
+          <include name="terminate"/>
+          <include name="Stores_Map"/>
+          <include name="Previous_Slider_Ad"/>
         </methods>
-      </class> <!-- Netmeds_Test.Netmeds_Test_2 -->
+      </class> <!-- Netmeds_Test.Netmeds_Test_1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

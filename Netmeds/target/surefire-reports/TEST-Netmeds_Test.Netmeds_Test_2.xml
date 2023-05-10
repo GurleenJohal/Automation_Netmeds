@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Netmeds_Test.Netmeds_Test_2" time="111.962" tests="34" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\gukaur\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\workspace\Netmeds\target\test-classes;D:\workspace\Netmeds\target\classes;C:\Users\gukaur\.m2\repository\org\slf4j\slf4j-api\2.0.6\slf4j-api-2.0.6.jar;C:\Users\gukaur\.m2\repository\ch\qos\reload4j\reload4j\1.2.22\reload4j-1.2.22.jar;C:\Users\gukaur\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.2\webdrivermanager-5.3.2.jar;C:\Users\gukaur\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\gukaur\.m2\repository\com\github\docker-java\docker-java\3.2.14\docker-java-3.2.14.jar;C:\Users\gukaur\.m2\repository\com\github\docker-java\docker-java-core\3.2.14\docker-java-core-3.2.14.jar;C:\Users\gukaur\.m2\repository\com\github\docker-java\docker-java-api\3.2.14\docker-java-api-3.2.14.jar;C:\Users\gukaur\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\gukaur\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\gukaur\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\gukaur\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\gukaur\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\gukaur\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\gukaur\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\gukaur\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\gukaur\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.14\docker-java-transport-httpclient5-3.2.14.jar;C:\Users\gukaur\.m2\repository\com\github\docker-java\docker-java-transport\3.2.14\docker-java-transport-3.2.14.jar;C:\Users\gukaur\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\gukaur\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\gukaur\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\gukaur\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\gukaur\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\gukaur\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.3\selenium-java-4.8.3.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.3\selenium-api-4.8.3.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.3\selenium-chrome-driver-4.8.3.jar;C:\Users\gukaur\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\gukaur\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\gukaur\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\gukaur\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\gukaur\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\gukaur\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\gukaur\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\gukaur\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\gukaur\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\gukaur\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.3\selenium-chromium-driver-4.8.3.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.3\selenium-json-4.8.3.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.3\selenium-manager-4.8.3.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.3\selenium-devtools-v109-4.8.3.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.3\selenium-devtools-v110-4.8.3.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v111\4.8.3\selenium-devtools-v111-4.8.3.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.3\selenium-devtools-v85-4.8.3.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.3\selenium-edge-driver-4.8.3.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.3\selenium-firefox-driver-4.8.3.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.3\selenium-http-4.8.3.jar;C:\Users\gukaur\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.3\selenium-ie-driver-4.8.3.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.3\selenium-remote-driver-4.8.3.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-buffer\4.1.90.Final\netty-buffer-4.1.90.Final.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-codec-http\4.1.90.Final\netty-codec-http-4.1.90.Final.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-codec\4.1.90.Final\netty-codec-4.1.90.Final.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-handler\4.1.90.Final\netty-handler-4.1.90.Final.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-common\4.1.90.Final\netty-common-4.1.90.Final.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.90.Final\netty-transport-classes-epoll-4.1.90.Final.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.90.Final\netty-transport-classes-kqueue-4.1.90.Final.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-transport-native-epoll\4.1.90.Final\netty-transport-native-epoll-4.1.90.Final.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.90.Final\netty-transport-native-kqueue-4.1.90.Final.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.90.Final\netty-transport-native-unix-common-4.1.90.Final.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-transport\4.1.90.Final\netty-transport-4.1.90.Final.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-resolver\4.1.90.Final\netty-resolver-4.1.90.Final.jar;C:\Users\gukaur\.m2\repository\io\opentelemetry\opentelemetry-api\1.24.0\opentelemetry-api-1.24.0.jar;C:\Users\gukaur\.m2\repository\io\opentelemetry\opentelemetry-context\1.24.0\opentelemetry-context-1.24.0.jar;C:\Users\gukaur\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.24.0\opentelemetry-exporter-logging-1.24.0.jar;C:\Users\gukaur\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.24.0\opentelemetry-sdk-metrics-1.24.0.jar;C:\Users\gukaur\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.24.0-alpha\opentelemetry-sdk-logs-1.24.0-alpha.jar;C:\Users\gukaur\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.24.0-alpha\opentelemetry-api-logs-1.24.0-alpha.jar;C:\Users\gukaur\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.24.0-alpha\opentelemetry-api-events-1.24.0-alpha.jar;C:\Users\gukaur\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.24.0\opentelemetry-sdk-common-1.24.0.jar;C:\Users\gukaur\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.24.0\opentelemetry-sdk-extension-autoconfigure-spi-1.24.0.jar;C:\Users\gukaur\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.24.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.24.0-alpha.jar;C:\Users\gukaur\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.24.0\opentelemetry-sdk-trace-1.24.0.jar;C:\Users\gukaur\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.24.0\opentelemetry-sdk-1.24.0.jar;C:\Users\gukaur\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.24.0-alpha\opentelemetry-semconv-1.24.0-alpha.jar;C:\Users\gukaur\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\gukaur\.m2\repository\net\bytebuddy\byte-buddy\1.14.2\byte-buddy-1.14.2.jar;C:\Users\gukaur\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\gukaur\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\gukaur\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\gukaur\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\gukaur\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\gukaur\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.3\selenium-safari-driver-4.8.3.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.3\selenium-support-4.8.3.jar;C:\Users\gukaur\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\gukaur\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\gukaur\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\gukaur\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\gukaur\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\gukaur\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\gukaur\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\gukaur\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\gukaur\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\gukaur\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Zulu\zulu-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\gukaur\AppData\Local\Temp\surefire10233689609440178734\surefirebooter2128591208646840280.jar C:\Users\gukaur\AppData\Local\Temp\surefire10233689609440178734 2023-05-10T15-03-51_720-jvmRun1 surefire5258230291896542707tmp surefire_013499943644536196136tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\workspace\Netmeds\target\test-classes;D:\workspace\Netmeds\target\classes;C:\Users\gukaur\.m2\repository\org\slf4j\slf4j-api\2.0.6\slf4j-api-2.0.6.jar;C:\Users\gukaur\.m2\repository\ch\qos\reload4j\reload4j\1.2.22\reload4j-1.2.22.jar;C:\Users\gukaur\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.2\webdrivermanager-5.3.2.jar;C:\Users\gukaur\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\gukaur\.m2\repository\com\github\docker-java\docker-java\3.2.14\docker-java-3.2.14.jar;C:\Users\gukaur\.m2\repository\com\github\docker-java\docker-java-core\3.2.14\docker-java-core-3.2.14.jar;C:\Users\gukaur\.m2\repository\com\github\docker-java\docker-java-api\3.2.14\docker-java-api-3.2.14.jar;C:\Users\gukaur\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\gukaur\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\gukaur\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\gukaur\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\gukaur\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\gukaur\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\gukaur\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\gukaur\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\gukaur\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.14\docker-java-transport-httpclient5-3.2.14.jar;C:\Users\gukaur\.m2\repository\com\github\docker-java\docker-java-transport\3.2.14\docker-java-transport-3.2.14.jar;C:\Users\gukaur\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\gukaur\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\gukaur\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\gukaur\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\gukaur\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\gukaur\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.3\selenium-java-4.8.3.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.3\selenium-api-4.8.3.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.3\selenium-chrome-driver-4.8.3.jar;C:\Users\gukaur\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\gukaur\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\gukaur\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\gukaur\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\gukaur\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\gukaur\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\gukaur\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\gukaur\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\gukaur\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\gukaur\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.3\selenium-chromium-driver-4.8.3.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.3\selenium-json-4.8.3.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.3\selenium-manager-4.8.3.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.3\selenium-devtools-v109-4.8.3.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.3\selenium-devtools-v110-4.8.3.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v111\4.8.3\selenium-devtools-v111-4.8.3.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.3\selenium-devtools-v85-4.8.3.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.3\selenium-edge-driver-4.8.3.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.3\selenium-firefox-driver-4.8.3.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.3\selenium-http-4.8.3.jar;C:\Users\gukaur\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.3\selenium-ie-driver-4.8.3.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.3\selenium-remote-driver-4.8.3.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-buffer\4.1.90.Final\netty-buffer-4.1.90.Final.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-codec-http\4.1.90.Final\netty-codec-http-4.1.90.Final.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-codec\4.1.90.Final\netty-codec-4.1.90.Final.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-handler\4.1.90.Final\netty-handler-4.1.90.Final.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-common\4.1.90.Final\netty-common-4.1.90.Final.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.90.Final\netty-transport-classes-epoll-4.1.90.Final.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.90.Final\netty-transport-classes-kqueue-4.1.90.Final.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-transport-native-epoll\4.1.90.Final\netty-transport-native-epoll-4.1.90.Final.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.90.Final\netty-transport-native-kqueue-4.1.90.Final.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.90.Final\netty-transport-native-unix-common-4.1.90.Final.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-transport\4.1.90.Final\netty-transport-4.1.90.Final.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-resolver\4.1.90.Final\netty-resolver-4.1.90.Final.jar;C:\Users\gukaur\.m2\repository\io\opentelemetry\opentelemetry-api\1.24.0\opentelemetry-api-1.24.0.jar;C:\Users\gukaur\.m2\repository\io\opentelemetry\opentelemetry-context\1.24.0\opentelemetry-context-1.24.0.jar;C:\Users\gukaur\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.24.0\opentelemetry-exporter-logging-1.24.0.jar;C:\Users\gukaur\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.24.0\opentelemetry-sdk-metrics-1.24.0.jar;C:\Users\gukaur\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.24.0-alpha\opentelemetry-sdk-logs-1.24.0-alpha.jar;C:\Users\gukaur\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.24.0-alpha\opentelemetry-api-logs-1.24.0-alpha.jar;C:\Users\gukaur\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.24.0-alpha\opentelemetry-api-events-1.24.0-alpha.jar;C:\Users\gukaur\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.24.0\opentelemetry-sdk-common-1.24.0.jar;C:\Users\gukaur\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.24.0\opentelemetry-sdk-extension-autoconfigure-spi-1.24.0.jar;C:\Users\gukaur\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.24.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.24.0-alpha.jar;C:\Users\gukaur\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.24.0\opentelemetry-sdk-trace-1.24.0.jar;C:\Users\gukaur\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.24.0\opentelemetry-sdk-1.24.0.jar;C:\Users\gukaur\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.24.0-alpha\opentelemetry-semconv-1.24.0-alpha.jar;C:\Users\gukaur\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\gukaur\.m2\repository\net\bytebuddy\byte-buddy\1.14.2\byte-buddy-1.14.2.jar;C:\Users\gukaur\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\gukaur\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\gukaur\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\gukaur\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\gukaur\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\gukaur\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\gukaur\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.3\selenium-safari-driver-4.8.3.jar;C:\Users\gukaur\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.3\selenium-support-4.8.3.jar;C:\Users\gukaur\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\gukaur\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\gukaur\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\gukaur\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\gukaur\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\gukaur\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\gukaur\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\gukaur\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\gukaur\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\gukaur\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\gukaur"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Program Files\Zulu\zulu-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\workspace\Netmeds"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\gukaur\AppData\Local\Temp\surefire10233689609440178734\surefirebooter2128591208646840280.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.5+8-LTS"/>
+    <property name="user.name" value="gukaur"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu17.38+21-CA"/>
+    <property name="localRepository" value="C:\Users\gukaur\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="C:\Users\gukaur\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="user.dir" value="D:\workspace\Netmeds"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Zulu\zulu-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Zulu\zulu-17\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Users\gukaur\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;D:\apache-maven-3.8.7;D:\apache-maven-3.8.7\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="17.0.5+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Lab_Tests" classname="Netmeds_Test.Netmeds_Test_2" time="3.123">
+    <system-out><![CDATA[---Netmeds Lab Tests Page is invoked----
+
+]]></system-out>
+    <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 40925
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 10, 2023 3:03:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 113, so returning the closest version found: 111
+]]></system-err>
+  </testcase>
+  <testcase name="Health_packages1" classname="Netmeds_Test.Netmeds_Test_2" time="4.284"/>
+  <testcase name="Health_packages2" classname="Netmeds_Test.Netmeds_Test_2" time="2.149"/>
+  <testcase name="Health_packages3" classname="Netmeds_Test.Netmeds_Test_2" time="2.299">
+    <system-out><![CDATA[---Test is booked---
+
+]]></system-out>
+  </testcase>
+  <testcase name="Beauty_Fragrances" classname="Netmeds_Test.Netmeds_Test_2" time="7.181">
+    <system-out><![CDATA[---Fragrances page is invoked---
+
+]]></system-out>
+  </testcase>
+  <testcase name="Beauty_Hair" classname="Netmeds_Test.Netmeds_Test_2" time="8.631">
+    <system-out><![CDATA[---Hair page of beauty module is invoked---
+
+]]></system-out>
+  </testcase>
+  <testcase name="Beauty_Makeup" classname="Netmeds_Test.Netmeds_Test_2" time="6.463">
+    <system-out><![CDATA[---Makeup page of beauty module is invoked---
+
+]]></system-out>
+  </testcase>
+  <testcase name="Beauty_MomBaby" classname="Netmeds_Test.Netmeds_Test_2" time="5.619">
+    <system-out><![CDATA[---Mom & Baby page of beauty module is invoked---
+
+]]></system-out>
+  </testcase>
+  <testcase name="Beauty_PersonalCare" classname="Netmeds_Test.Netmeds_Test_2" time="8.912">
+    <system-out><![CDATA[---Personal Care page of beauty module is invoked---
+
+]]></system-out>
+  </testcase>
+  <testcase name="Beauty_SkinCare" classname="Netmeds_Test.Netmeds_Test_2" time="15.539">
+    <system-out><![CDATA[---Skin Care page of beauty module is invoked---
+
+]]></system-out>
+  </testcase>
+  <testcase name="Beauty_Tools" classname="Netmeds_Test.Netmeds_Test_2" time="5.887">
+    <system-out><![CDATA[---Tools & Appliances page of beauty module is invoked---
+
+]]></system-out>
+  </testcase>
+  <testcase name="Health_Corner_HealthLibrary" classname="Netmeds_Test.Netmeds_Test_2" time="4.468"/>
+  <testcase name="Health_Library" classname="Netmeds_Test.Netmeds_Test_2" time="0.032">
+    <system-out><![CDATA[------
+All
+Ailments
+Beauty & Fitness
+Food
+Wellness
+In The News
+Pet Care
+Videos
+Shatavari Guggul: Benefits, Uses, Formulations, Ingredients,..
+Ayurveda is a 5000-year-old holistic form of healing practice that foretells us that the optimal functioning of the human body chiefly relies on the type of Dhatus, Gunas, Malas, Agni and Doshas they are made of. Depending upon the type of energy or ..
+World Lupus Day 2023: Signific..
+World Lupus Day is commemorated on May 10 worldwide every year to..
+What Do High Creatinine Levels..
+The kidneys are the primary filtration system of the body that he..
+Saunf/Fennel Seeds: Nutrition,..
+The secrets of health of our ancestors can be found in the humble..
+What Are High-Carb Foods? Shou..
+Carbohydrates are one of the macronutrients that are vital to a h..
+]]></system-out>
+  </testcase>
+  <testcase name="Patients_alike" classname="Netmeds_Test.Netmeds_Test_2" time="2.387"/>
+  <testcase name="CoronaAwarenes" classname="Netmeds_Test.Netmeds_Test_2" time="2.165">
+    <system-out><![CDATA[---Corona Awareness page is invoked---
+
+]]></system-out>
+  </testcase>
+  <testcase name="Offers" classname="Netmeds_Test.Netmeds_Test_2" time="1.041">
+    <system-out><![CDATA[---Offer_Title---
+Netmeds Coupons and Offers
+]]></system-out>
+  </testcase>
+  <testcase name="Select_Offer" classname="Netmeds_Test.Netmeds_Test_2" time="2.866">
+    <system-out><![CDATA[
+--------
+CASH100
+Coupon Code
+COPY CODE
+Today only! Get Flat 18% OFF* (max. discount: Rs. 2000) on PrePaid/COD medicine orders & 100% NMS SuperCash* (max. cashback: Rs. 1000) on ‘PrePaid’ medicine orders. *Minimum order (along with ANY other products) required: Rs 1299. *T&C
+]]></system-out>
+  </testcase>
+  <testcase name="View_Offer" classname="Netmeds_Test.Netmeds_Test_2" time="0.146">
+    <system-out><![CDATA[
+-----Terms & Conditions-----
+Get Flat 18% OFF* On Medicines + 100% NMS SuperCash*
+Today only! Get Flat 18% OFF* (max. discount: Rs. 2000) on PrePaid/COD medicine orders & 100% NMS SuperCash* (max. cashback: Rs. 1000) on ‘PrePaid’ medicine orders. *Minimum order (along with ANY other products) required: Rs 1299. *T&C
+ELIGIBILITY
+Offer valid for ALL Customers. The Coupon code CASH100 can be used multiple times during the offer period. Note: To qualify for 100% NMS SuperCash, your medicine order (pre-paid) MUST be worth a min. of Rs. 1299 or more AFTER the application of the CASH100 coupon discount.
+HOW DO YOU GET IT?
+Use code CASH100 @ shopping cart page & get Flat 18% OFF on medicines immediately. Upon order delivery, 100% NMS SuperCash (max cashback: Rs 1000) will be credited to NMS wallet (Cashback Valid: 60 days). The NMS SuperCash can be redeemed for max. 18% of total value of medicines in one transaction.
+CONDITIONS IN CASE OF CANCELLATION
+If your order is cancelled, this offer will become null and void.
+Terms and Conditions
+Offer Outline - Flat 18% OFF Medicines + 100% NMS SuperCash
+Subject to the following Terms and Conditions, today only, ALL customers will be eligible to receive a Flat 18% discount (max. Rs. 2000) immediately on a ‘Pre-Paid/COD’ order of Medicines, PLUS a 100% NMS SuperCash/cashback (max. Rs. 1000) upon the delivery of ONLY ‘pre-paid’ medicine orders, placed on Netmeds.com/Netmeds App. NOTE: A minimum order of medicines (along with ANY other products) worth Rs. 1299 is required to be eligible for the Flat 18% discount on medicines and a 100% NMS SuperCash. The coupon code for this offer is CASH100, which can be used multiple times – today only.
+]]></system-out>
+  </testcase>
+  <testcase name="Count_Offers" classname="Netmeds_Test.Netmeds_Test_2" time="2.841">
+    <system-out><![CDATA[----Total number of Offers are: 6-----
+
+]]></system-out>
+  </testcase>
+  <testcase name="Add_to_Cart" classname="Netmeds_Test.Netmeds_Test_2" time="3.412">
+    <system-out><![CDATA[---Item Searched---
+
+]]></system-out>
+  </testcase>
+  <testcase name="Count_Items" classname="Netmeds_Test.Netmeds_Test_2" time="2.049">
+    <system-out><![CDATA[----Total number of Items are: 12-----
+
+]]></system-out>
+  </testcase>
+  <testcase name="Item_Info" classname="Netmeds_Test.Netmeds_Test_2" time="2.054">
+    <system-out><![CDATA[----Item Information----
+9% OFF
+Combiflam Icyhot Spray 35 gm
+Treatments
+Pain Relief Application
+Mkt: Sanofi India Limited
+Best price* ₹120.11
+MRP Rs.131.99
+ADD TO CART
+]]></system-out>
+  </testcase>
+  <testcase name="Add_Item" classname="Netmeds_Test.Netmeds_Test_2" time="2.866"/>
+  <testcase name="Order_Count" classname="Netmeds_Test.Netmeds_Test_2" time="0.627">
+    <system-out><![CDATA[----Total number of Items are:----
+2 item(s)
+]]></system-out>
+  </testcase>
+  <testcase name="Order_Summary" classname="Netmeds_Test.Netmeds_Test_2" time="0.031">
+    <system-out><![CDATA[----Order Summary----
+ORDER SUMMARY
+2 item(s)
+COMBIFLAM Suspension 60ml
+Rs.40.64x1
+Combiflam Icyhot Spray 35 gm
+Rs.120.11x1
+Rs.160.75
+You save Rs.11.88
+PROCEED TO CART
+]]></system-out>
+  </testcase>
+  <testcase name="Cart" classname="Netmeds_Test.Netmeds_Test_2" time="3.206"/>
+  <testcase name="Cart_Product" classname="Netmeds_Test.Netmeds_Test_2" time="0.064">
+    <system-out><![CDATA[Products in the cart:----
+PRODUCTS
+Combiflam Icyhot Spray 35 gm
+Only 1 Left In Stock
+Mfr: Sanofi India Limited
+Remove
+₹ 120.11
+₹ 131.99Save ₹11.88
+QTY:
+1
+Delivery between MAY 15-MAY 16
+PRESCRIPTION ITEMS
+Rx
+COMBIFLAM Suspension 60ml
+Mfr: Sanofi India Limited
+Remove
+₹ 40.64
+QTY :
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Delivery between MAY 11-MAY 12
+ADD MORE ITEMS
+]]></system-out>
+  </testcase>
+  <testcase name="Apply_PromoCode" classname="Netmeds_Test.Netmeds_Test_2" time="0.069">
+    <system-out><![CDATA[
+----PromoCode displayed---
+
+]]></system-out>
+  </testcase>
+  <testcase name="Coupon_List" classname="Netmeds_Test.Netmeds_Test_2" time="0.052">
+    <system-out><![CDATA[----Total number of coupons available are:----(301, 841)
+
+CASH100
+Get flat 18% off on meds + 100% NMS SuperCash on your meds order. Minimum order value: Rs. 1299.
+NMSNEW
+Flat 25% off on your first meds order + 25% cashback. Minimum order value Rs. 1249.
+NMS18
+Flat 18% off on your meds order + 20% NMS SuperCash. Minimum order value: Rs. 1499
+NMS15
+Get flat 15% off on meds + 30% NMS SuperCash on your meds order. Minimum order value: Rs. 699.
+NMS10
+Get flat 10% off on meds + 20% NMS SuperCash on your meds order. Minimum order value is Rs. 499
+NMSNEW20
+Get flat 20% off on meds + 20% NMS SuperCash on your First meds order. Minimum order value: 799
+]]></system-out>
+  </testcase>
+  <testcase name="Sel_Coupon" classname="Netmeds_Test.Netmeds_Test_2" time="0.059">
+    <system-out><![CDATA[----Coupon selected----
+
+]]></system-out>
+  </testcase>
+  <testcase name="Payment_Details" classname="Netmeds_Test.Netmeds_Test_2" time="0.073">
+    <system-out><![CDATA[------Payment Details-------
+PAYMENT DETAILS
+MRP Total
+₹ 172.63
+Additional Discount
+- ₹ 11.88
+Total Amount
+₹ 160.75
+Shipping/Delivery Charges
+₹ 99.00
+Add items worth ₹{amount} more on this order to get FREE delivery
+Total Payable
+₹ 259.75
+Total Savings
+₹ 11.88
+Total Payable
+₹ 259.75
+PROCEED
+]]></system-out>
+  </testcase>
+  <testcase name="Proceed" classname="Netmeds_Test.Netmeds_Test_2" time="0.151"/>
+  <testcase name="Delivery_Status" classname="Netmeds_Test.Netmeds_Test_2" time="2.082">
+    <system-out><![CDATA[---------
+NETMEDS FIRST customers get extra ₹5.20 cashback on this order
+Additional 2% NMS cash
+max ₹100 on prepaid medicine
++ADD TO CART
+Membership starting from ₹149 for 3 months
+]]></system-out>
+  </testcase>
+  <testcase name="Remove_Product" classname="Netmeds_Test.Netmeds_Test_2" time="3.184">
+    <system-out><![CDATA[---Number of products in the cart:---2
+---Number of products remained in the cart:---1
+]]></system-out>
+  </testcase>
+</testsuite>

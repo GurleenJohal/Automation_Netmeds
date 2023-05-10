@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Netmeds_Test.Netmeds_Test_2
+-------------------------------------------------------------------------------
+Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 111.962 s - in Netmeds_Test.Netmeds_Test_2
