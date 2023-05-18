@@ -27,7 +27,7 @@ public class Netmeds_Test_1 extends Netmeds_Testbase{
 	
 	//Visibility of logo
   @Test(priority=1)
-  public void Logo_Visibility1() throws InterruptedException {
+  public void Logo_Visibility() throws InterruptedException {
 	  Thread.sleep(2000);
 	  System.out.println("--The logo is visible--");
 	  Assert.assertEquals(netmeds_page1.Logo().isDisplayed(),true);
